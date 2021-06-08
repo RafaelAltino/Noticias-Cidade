@@ -87,3 +87,43 @@ body.ciencia #navegacao a#ciencia:hover,
 body.fotos #navegacao a#fotos:hover{
     color: #69001D;
 }
+
+/*Configurações do layout de três colunas*/
+
+#conteudo{
+    background: #F5F5F5;
+    margin-top: 60px;
+}
+
+#primario{
+    width: 270px;
+    background: #AAAAFF;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#secundario{
+    width: 270px;
+    background: #AAFFAA;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+#lateral{
+    width: 180px;
+    background: #FFFFAA;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+#container-rodape{
+    clear: both;
+    background: #294C71;
+    padding: 20px;
+}
+
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: #FFF;
+}
