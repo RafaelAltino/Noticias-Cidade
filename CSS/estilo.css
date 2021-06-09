@@ -95,32 +95,64 @@ body.fotos #navegacao a#fotos:hover{
     margin-top: 60px;
 }
 
+#lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
 #primario{
     width: 270px;
-    background: #AAAAFF;
     float: left;
     margin: 0 0 20px 195px;
 }
 
+#tres-colunas #primario{
+    width: 270px;
+}
+
+#duas-colunas #primario{
+    width: 555px;
+}
+
+#uma-coluna #primario{
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
 #secundario{
     width: 270px;
-    background: #AAFFAA;
     float: left;
     margin: 0 0 20px 15px;
 }
 
-#lateral{
-    width: 180px;
-    background: #FFFFAA;
-    float: left;
-    margin: 0 0 20px -750px;
-}
 
 #container-rodape{
     clear: both;
     background: #294C71;
     padding: 20px;
 }
+
+/*Caixa*/
+.caixa{
+    margin: 10px 0;
+    background: #F3F3F3 url("../imagens/fundo-caixa.png");
+    padding: 5px 0;
+}
+
+h2{
+    font-size: 1em;
+    background: #294C71;
+    color: #FFF;
+    padding: 5px;
+}
+
+.caixa-conteudo{
+    background: #FFF;
+    padding: 5px;
+    margin-top: 5px;
+}
+
 
 #rodape{
     width: 750px;
