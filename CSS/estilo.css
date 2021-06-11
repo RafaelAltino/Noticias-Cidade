@@ -29,6 +29,16 @@ body{
 
 /*BARRA DE NAVEGAÇÃO*/
 
+a:link, a:visited{
+    color: #B10333;
+    padding: 2px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #E50040;
+}
+
 ul{
     margin: 0;
     padding: 0;
@@ -123,12 +133,6 @@ body.fotos #navegacao a#fotos:hover{
 }
 
 
-#container-rodape{
-    clear: both;
-    background: #294C71;
-    padding: 20px;
-}
-
 /*Caixa*/
 .caixa{
     margin: 10px 0;
@@ -212,10 +216,47 @@ h3{
     color: #333;
 }
 
+/*Formatando lista de notícias*/
+#lista-noticias li{
+    padding: 2px;
+    border-bottom: 1px solid #CCC;
+    height: 65px;
+}
 
+#lista-noticias li a img{
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias li a{
+    text-decoration: none;
+}
+
+#lista-noticias li a h3{
+    font-size: 0.8em;
+    padding: 0;
+    color: #3E7AB9;
+}
+
+#lista-noticias li a p{
+    font-size: 0.7em;
+    color: #000;
+}
+
+#lista-noticias li:hover{
+    background: #EEE;
+    cursor: pointer;
+}
+
+/*RODAPÉ*/
 #rodape{
     width: 750px;
     margin: 0 auto;
     color: #FFF;
 }
 
+#container-rodape{
+    clear: both;
+    background: #294C71;
+    padding: 20px;
+}
